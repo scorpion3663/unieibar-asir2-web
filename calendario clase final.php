@@ -25,11 +25,17 @@ $horario2 = array(
     "Miercoles" => array("WEB","WEB","SIST","SIST","RED","RED"),  // miercoles 2
     "Jueves" => array("WEB","WEB","SIST","SIST","RED","RED"),  // jueves 3
     "Viernes" => array("WEB","WEB","SIST","SIST","RED","RED")  // viernes 4
+
+$dia = date("N");
+$hora = date("G");
+    
+    echo $horario[$dia-1][$hora-8]."<br>"
+    // print horaio
     foreach ($horario as $dia) {
         foreach ($dia as $asig){
-
+            echo $asig. "<br>";
         }
-    echo $asig. "<br>";
+    echo "------------------------<br>";
     }
     
 );
