@@ -25,12 +25,12 @@ $horario2 = array(
     "Miercoles" => array("WEB","WEB","SIST","SIST","RED","RED"),  // miercoles 2
     "Jueves" => array("WEB","WEB","SIST","SIST","RED","RED"),  // jueves 3
     "Viernes" => array("WEB","WEB","SIST","SIST","RED","RED")  // viernes 4
+    foreach ($horario as $dia) {
+        foreach ($dia as $asig){
+
+        }
+    echo $asig. "<br>";
+    }
+    
 );
-// http://php.net/manual/en/function.date.php
-$dia = date("N");
-$hora = date("G");
-//echo $horario[$dia-1][$hora-8];
-echo $horario2["Lunes"][0];
-// Controlar los horarios de fuera de dia y hora
-// Print el horario
-// Where can we check PHP errors?
+
