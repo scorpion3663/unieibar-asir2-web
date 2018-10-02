@@ -2,19 +2,12 @@
 
 <?php
 $horario = array(
-    array("BASES", "EIE", "SIST", "SIST", "WEB","WEB"),   //lunes 0
-    array("WEB", "SEGUR", "RED", "RED", "BASES","BASES"),   //martes 1
-    array("SEGUR", "SEGUR", "SIST", "SIST", "EIE","EIE"),   //miercoles 2
-    array("RED", "RED", "SIST", "SIST", "WEB","WEB"),   //jueves 3
-    array("SEGUR", "SEGUR", "RED", "RED", "INGLES","INGLES"),   //viernes 4
-    
+    array(1,2,3,4),   //lunes 0
+    array(5,6,7,8),   //martes 1
+    array(9,10,11,12),   //miercoles 2
+   
 );
 
-$dia = date("N");
-$hora = date("G");
-//echo "hora : $hora";
-
-echo $horario[$dia-1][$hora-8];
-
-//echo "hora : $hora";
-// fala por controlar los horarios de fuera
+for($x =0;$x <3;$s++){
+    for($y = 0;$y <)
+}
